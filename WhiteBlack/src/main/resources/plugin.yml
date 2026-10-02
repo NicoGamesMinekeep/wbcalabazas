@@ -1,0 +1,14 @@
+name: WhiteBlack
+version: 1.0.0
+main: es.whiteblack.WhiteBlack
+api-version: '1.20'
+softdepend: [Multiverse-Core, Vault]
+commands:
+  wb:
+    description: Administración y juego WhiteBlack
+    usage: /wb help
+permissions:
+  whiteblack.admin:
+    default: op
+  whiteblack.play:
+    default: true
